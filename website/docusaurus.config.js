@@ -131,6 +131,12 @@ const config = {
             label: "Learn more",
           },
           {
+            type: "doc",
+            docId: "rpc/rpc",
+            position: "left",
+            label: "RPC",
+          },
+          {
             type: "dropdown",
             label: "Links",
             position: "right",

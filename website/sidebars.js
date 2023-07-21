@@ -482,6 +482,44 @@ const sidebars = {
       id: "audit-reports"
     }
   ],
+  RPCSidebar: [
+    {
+      type: "category",
+      label: "Block RPC",
+      items: [
+        {
+          type: "doc",
+          label: "Balance",
+          id: "rpc/rpc",
+        },
+        {
+          type: "doc",
+          label: "Storage",
+          id: "rpc/storage",
+        },
+        {
+          type: "doc",
+          label: "Transaction By hash",
+          id: "rpc/transaction-by-hash",
+        },
+        {
+          type: "doc",
+          label: "Transaction Receipt",
+          id: "rpc/receipt",
+        },
+        {
+          type: "doc",
+          label: "Estimate Gas",
+          id: "rpc/estimate-gas",
+        },
+        {
+          type: "doc",
+          label: "Block By Hash",
+          id: "rpc/get-block-by-hash",
+        }
+      ]
+    }
+  ],
 };
 
 module.exports = sidebars;
