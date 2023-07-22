@@ -485,7 +485,7 @@ const sidebars = {
   RPCSidebar: [
     {
       type: "category",
-      label: "Block RPC",
+      label: "General RPC methods",
       items: [
         {
           type: "doc",
@@ -516,7 +516,52 @@ const sidebars = {
           type: "doc",
           label: "Block By Hash",
           id: "rpc/get-block-by-hash",
+        },
+        {
+          type: "doc",
+          label: "ETH Call",
+          id: "rpc/eth-call",
         }
+  ]},
+        {
+          type: "category",
+          label: "Node Interface",
+          items: [
+        {
+          type: "doc",
+          label: "Find Batch Containing Block",
+          id: "rpc/batch-for-block",
+        },
+        {
+          type: "doc",
+          label: "L1 Confirmations",
+          id: "rpc/l1-confirmations",
+        },
+        {
+          type: "doc",
+          label: "Outbox Proof",
+          id: "rpc/get-proof",
+        },
+        {
+          type: "doc",
+          label: "Gas Estimate L1 Component",
+          id: "rpc/gas-estimate-l1",
+        },
+        {
+          type: "doc",
+          label: "Gas Estimate All Components",
+          id: "rpc/estimate-gas-components",
+        },
+        {
+          type: "doc",
+          label: "Outbox Proof (Legacy)",
+          id: "rpc/get-proof-legacy",
+        },
+        {
+          type: "doc",
+          label: "Get Estimate Gas Retryable",
+          id: "rpc/gas-estimate-l1-retryable",
+        },
       ]
     }
   ],
